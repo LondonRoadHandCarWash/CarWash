@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to London Road Car Wash</title>
+
+  <!-- Load Tailwind CSS from CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<!-- Tailwind setup: min-h-screen fills the screen, flex column pushes footer to bottom -->
+<body class="bg-gray-100 font-sans text-black min-h-screen flex flex-col">
+
+  <!-- Main content wrapper that grows to push footer down -->
+  <div class="flex-grow">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-yellow-400 text-black flex justify-center py-3 space-x-4 font-bold">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="services.html" class="hover:underline">Services</a>
+      <a href="wash.html" class="hover:underline">Wash & Wax</a>
+      <a href="mini_valet.html" class="hover:underline">Mini Valet</a>
+      <a href="full_valet.html" class="hover:underline">Full Valet</a>
+      <a href="polish.html" class="hover:underline">Polish</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-yellow-300 text-center py-6">
+      <h1 class="text-3xl font-bold">Welcome to London Road Hand Car Wash</h1>
+    </header>
+
+    <!-- Hero Image -->
+    <div class="w-full h-[500px] bg-cover bg-center" style="background-image: url('images/Car Wash.jpg');">
+      <!-- Background image using Tailwind with custom height -->
+    </div>
+
+  </div> <!-- End of flex-grow -->
+
+  <!-- Sticky Footer -->
+  <footer class="bg-gray-800 text-white text-center py-8">
+    <div class="space-y-2">
+      <!-- Adds vertical spacing between items -->
+      <p><strong>London Road Hand Car Wash</strong></p>
+      <p><i class="fas fa-phone-alt"></i> 07495 335216</p>
+      <p><i class="fas fa-envelope"></i> info@londonroadcarwash.co.uk</p>
+      <p>
+        <a href="https://instagram.com" target="_blank" class="text-yellow-400 hover:underline">
+          <i class="fab fa-instagram"></i>Instagram
+        </a>
+      </p>
+      <p>© 2025 London Road Car Wash. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
